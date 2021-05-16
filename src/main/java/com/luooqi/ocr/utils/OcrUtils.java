@@ -130,6 +130,8 @@ public class OcrUtils {
         if (jsonObject.getInt("errno", 0) != 0) {
             return "";
         }
+        System.out.println("===========");
+        System.out.println("===========这个是master分支的记录");
         JSONArray jsonArray = jsonObject.getJSONObject("data").getJSONArray("words_result");
         List<TextBlock> textBlocks = new ArrayList<>();
         boolean isEng = false;
