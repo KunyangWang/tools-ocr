@@ -131,7 +131,7 @@ public class OcrUtils {
             return "";
         }
         System.out.println("===========");
-        System.out.println("===========这个是master分支的记录");
+        System.out.println("===========这个是master分支的记录1");
         JSONArray jsonArray = jsonObject.getJSONObject("data").getJSONArray("words_result");
         List<TextBlock> textBlocks = new ArrayList<>();
         boolean isEng = false;
